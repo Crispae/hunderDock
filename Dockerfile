@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     unzip
 
 # Clone the hunerDock repository
-RUN git clone https://github.com/Crispae/hunerDock.git
+RUN git clone https://github.com/Crispae/hunderDock.git
 
 # Change to the hunerDock directory
 WORKDIR /app/hunerDock
