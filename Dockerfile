@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y \
 RUN git clone https://github.com/Crispae/hunderDock.git
 
 # Change to the hunerDock directory
-WORKDIR /app/hunerDock
+WORKDIR /app/hunderDock
 
 # Install Python dependencies
 RUN pip install flask flair==0.11.3
